@@ -1,0 +1,56 @@
+body{
+  font-size: 14px;
+  font-family: arialblack;
+  min-height: 1500px;
+  }
+*{
+  padding: 0;
+  margin: 0;
+ 
+}
+:not(p,.con){
+   margin-top:7%;
+}
+.sec{
+  position:sticky;
+  top:0;
+  margin-top:12%;
+  width:100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head{
+  text-align: center;
+  height: unset;
+}
+.lo{
+  background: red;
+  padding:10px;
+  font-weight: 1000;
+  color:white;
+  font-family: times new roman;
+  box-shadow: .5px .5px black,-5px -5px rgba(0,0,0,.5);
+  }
+.sect1{
+  
+  background: whitesmoke;
+}
+.sect2{
+  background: blue;
+  color:white;
+}
+.sect3{
+  overflow-x: auto;
+  background: coral;
+  color:white;
+  flex-wrap: wrap;
+}
+.con{
+  display: grid;
+  place-items:center;
+  width:100vw;
+  height: 100%;
+}
+
